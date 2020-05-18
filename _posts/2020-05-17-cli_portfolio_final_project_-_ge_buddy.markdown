@@ -20,8 +20,8 @@ A core feature of RuneScape is the economy. Players can trade with one another u
 
 The GE also provides opportunities for players to make money through investment. Since item prices are fluid, players can exploit market trends to buy items when prices are are low and sell them when the prices rise. The game maintains a history of prices going back 180 days. A savvy players, like a savvy investor, would view item price history and identify trends to decide what items to invest in and when to buy/sell items. 
 
-*Figure 1: Example of guide price in RuneScape. This is for item "White berries". The Y-axis represents price, and the X-axis represents date. The blue line charts daily prices. The orange line is a "30-day average", which is the average of the last 30 days.*
 ![](https://i.imgur.com/9Pewi4j.png)
+*Figure 1: Example of guide price in RuneScape. This is for item "White berries". The Y-axis represents price, and the X-axis represents date. The blue line charts daily prices. The orange line is a "30-day average", which is the average of the last 30 days.*
 
 ## Introduction to GE Buddy
 
@@ -36,13 +36,13 @@ The application allows the player to:
 - Add transactions that were made in the game
 - Calculate portfolio performance: amount spent, amount sold for, and return-on-investment
 
-*Figure 2: GE Buddy main menu*
 ![](https://i.imgur.com/rgCq2dn.png)
+*Figure 2: GE Buddy main menu*
 
 ## Object Model
 
-*Figure 3: classes used*
 ![](https://i.imgur.com/2vtACrR.png)
+*Figure 3: classes used*
 
 GE Buddy is written with an object-oriented architecture. The following classes are used:
 
