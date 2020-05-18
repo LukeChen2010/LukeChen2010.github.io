@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "CLI Portfolio Final Project - GE Buddy"
-date:       2020-05-18 03:37:34 +0000
+date:       2020-05-17 23:37:34 -0400
 permalink:  cli_portfolio_final_project_-_ge_buddy
 ---
 
 
-## Introduction
+Introduction
 
 For my module 1 final project, I developed a command line interface application in Ruby called GE Buddy. The application is designed to work in conjuction with RuneScape, which is a massively multiplayer online role playing game (MMORPG) developed by Jagex, Inc in the United Kingdom. The application helps players track the historic prices of items in RuneScape, input in-game transactions, and provides analysis of the user's transactions. 
 
@@ -14,7 +14,7 @@ RuneScape is a game which the player controls an in-game character. It is set in
 
 The game can be accessed here: https://www.runescape.com/
 
-## Investing in RuneScape
+Investing in RuneScape
 
 A core feature of RuneScape is the economy. Players can trade with one another using either other items (bartering) or though currency. The economy operates on a 100% laissez-faire capitalism model, with supply and demand dicating prices. Most transactions are handled by the Grand Exchange (GE), which is a marketplace where players can list items for sale and place bids on items to buy. Transactions are awarded to sellers who list items for sale at the lowest price and to buyers who place bids at the highest price. Prices change daily depending on the average buy/sell price and quantity traded. The GE also displays a "guide price", which is the average price of the item. In fact, there are many analogies between the GE and the real-life stock market. 
 
@@ -23,7 +23,7 @@ The GE also provides opportunities for players to make money through investment.
 *Figure 1: Example of guide price in RuneScape. This is for item "White berries". The Y-axis represents price, and the X-axis represents date. The blue line charts daily prices. The orange line is a "30-day average", which is the average of the last 30 days.*
 ![](https://i.imgur.com/9Pewi4j.png)
 
-## Introduction to GE Buddy
+Introduction to GE Buddy
 
 RuneScape has an API to access its item database. It can return details about the item and also its price history. API documentation and endpoint URL's can be found here: https://runescape.fandom.com/wiki/Application_programming_interface
 
@@ -39,7 +39,8 @@ The application allows the player to:
 *Figure 2: GE Buddy main menu*
 ![](https://i.imgur.com/rgCq2dn.png)
 
-## Object Model
+Object Model
+
 *Figure 3: classes used*
 ![](https://i.imgur.com/2vtACrR.png)
 
@@ -65,7 +66,7 @@ Stores information about an item in RuneScape. All item information is obtained 
 
 Used to store information about a transaction made by the player: item, type (buy or sell), quantity, price. 
 
-## Usage
+Usage
 
 Follow the in-game menu prompts. Enter your selection with the numbers 1-6:
 
