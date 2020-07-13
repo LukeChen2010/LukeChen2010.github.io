@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "FakeMo - The Ultra Awesome Peer-to-Peer Payment System!"
-date:       2020-07-13 02:57:01 +0000
+date:       2020-07-12 22:57:02 -0400
 permalink:  fakemo_-_the_ultra_awesome_peer-to-peer_payment_system
 ---
 
@@ -14,7 +14,7 @@ Long story short: it is a knockoff of Venmo ;)
 The front page of the app has standard login and signup functionality:
 ![](https://i.imgur.com/wDeSVzp.png)
 
-The signup page contains validations for user inputs. Usernames also must not be already taken:
+The signup page contains validations for user inputs. Usernames  must not already be taken:
 ![](https://i.imgur.com/CoEay8I.png)
 
 The login page provides a place to enter your credentials or sign in with your Facebook account:
